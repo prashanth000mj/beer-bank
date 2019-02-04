@@ -1,4 +1,8 @@
 
+### `npm install`
+
+Installs all the necessary dependencies.<br>
+
 ### `npm start`
 
 Runs the app in the development mode.<br>

@@ -100,7 +100,8 @@ class Body extends Component {
                     <h6>Find your favorite beer here</h6>
                     <div className="col-lg-6 col-xl-6 col-md-8 col-sm-12 col-xs-12">
                         <input className="body-search-box" type="text" onKeyPress={this.search.bind(this)}
-                            placeholder="Search for beer name" ref={ref=> {this.searchBox = ref;}}/>
+                            placeholder="Search for beer name" ref={ref=> {this.searchBox = ref;}} 
+                            title="Hit Enter after the search text is keyed in!"/>
                         <a className="advance-search" 
                             onClick={this.openAdvanceSearch.bind(this)}>Advance Search</a>
                             
