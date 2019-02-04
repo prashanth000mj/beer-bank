@@ -1,0 +1,48 @@
+.advance-card{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0,0.5) !important;
+    width: inherit;
+    min-width: 100%;
+    min-height: 100%;
+    height: inherit;
+    z-index: 999;
+    margin: 0;
+}
+
+.advance-card-main{
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 3px;
+    position: relative;
+    padding: 15px;
+    max-height: 650px;
+    overflow: overlay;
+}
+
+.text-input{
+    border-radius: 3px;
+}
+
+.adv-search-button {
+    border-radius: 3px;
+    background-color: #f79400;
+    color: white;
+}
+
+.adv-header{
+    color: #f79400
+}
+
+.adv-column{
+    padding: 5px;
+}
+
+.pull-right{
+    float: right;
+}
+
+.pull-left{
+    float: left;
+}

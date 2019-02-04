@@ -1,0 +1,41 @@
+.card{
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 15px;
+    position: relative;
+    cursor: pointer;
+    min-height: 300px;
+    overflow: hidden;
+}
+.card:hover{
+    margin: 3px;
+    box-shadow: 0px 0px 5px;
+}
+
+h5{
+    color: #f79400;
+}
+
+.card-img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 5px;
+    height: 195px;
+    width: auto;
+}
+
+.fav-icon{
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.fav-icon-color{
+    color: #f79400;
+}
+
+.card-tagline{
+    color: gray;
+}

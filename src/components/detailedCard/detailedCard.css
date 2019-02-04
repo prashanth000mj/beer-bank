@@ -1,0 +1,71 @@
+.detailed-card{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0,0.5) !important;
+    width: inherit;
+    min-width: 100%;
+    min-height: 100%;
+    height: inherit;
+    z-index: 999;
+    margin: 0;
+}
+
+.detailed-card-main{
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 3px;
+    position: relative;
+    padding: 15px;
+    max-height: 650px;
+    overflow: overlay;
+}
+
+.close-icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 15px;
+    cursor: pointer;
+}
+.detailed-card-image {
+    height: 400px;
+}
+
+.dc-h2{
+    color: #f79400;
+}
+.dc-text{
+    color: gray;
+}
+.dc-h4{
+    color: #f79400;
+    text-align: left;
+}
+
+.detailed-card-text{
+    text-align: left;
+}
+
+.you-may-like-text{
+    color: gray;
+}
+.you-may-like-image{
+    height: 100px;
+}
+.you-may-like{
+    border: 1px solid gray;
+    padding: 5px;
+}
+.you-may-like-row{
+    margin: 0;
+}
+.color-line{
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 5px;
+    max-height: 5px;
+    background-color: #91447d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,24 @@
+.header-navs{
+    float: right;
+}
+.App-header{
+    background-color: #f79400;
+    color: white;
+    padding: 5px;
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.hand-pointer{
+    cursor: pointer;
+}
+
+.active-page{
+    color: black;
+}
+  
+  

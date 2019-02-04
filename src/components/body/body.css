@@ -1,0 +1,53 @@
+.App-body{
+    background-color: #f8f8f8;
+}
+
+.body-main{
+    margin: auto;
+}
+
+.card-container{
+    padding: 0;
+}
+
+@-webkit-keyframes spin {
+    from {-webkit-transform: rotateZ(0deg);}
+    to {-webkit-transform: rotateZ(360deg);}
+}
+
+@keyframes spin {
+    from {transform: rotateZ(0deg);}
+    to {transform: rotateZ(360deg);}
+}
+
+.refresh-icon{
+    display: inline-block;
+    animation: spin 0.75s linear infinite;
+    padding: 25px;
+}
+
+.body-header-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f79400;
+    color: white;
+    padding: 5px;
+}
+.body-search-box{
+    border-radius: 0;
+    width: 100%;
+    padding: 0 5px;
+}
+
+.advance-search{
+    float: right;
+    cursor: pointer;
+    color: white;
+}
+.clear-search{
+    float: left;
+    cursor: pointer;
+    color: white;
+}
